@@ -2,10 +2,9 @@
 
 ## Specification
 
-* Networks: BSC and Polygon
+* Network: BSC
 * BSC contract address: [0xCa0D640a401406f3405b4C252a5d0c4d17F38EBb](https://bscscan.com/token/0xCa0D640a401406f3405b4C252a5d0c4d17F38EBb)
-* Polygon contract address: [0x267DF8C1168C9d5aE8Ee97B48c7e86d8d43D88d2](https://polygonscan.com/address/0x267df8c1168c9d5ae8ee97b48c7e86d8d43d88d2#readContract)
-* Standard: BEP-20/ERC-20
+* Standard: BEP-20
 * Name: METARUN
 * Symbol: MRUN
 * Supply: dynamic, capped at 1,000,000,000. It will be minted as per requirement. At the time of deployment there should be no supply minted.
