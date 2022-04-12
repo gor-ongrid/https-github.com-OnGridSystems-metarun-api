@@ -1,18 +1,23 @@
-# MRUN ERC-20 token for Metarun game and marketplace
+# MRUN Ethereum Contracts
 
-## Specification
+[![](https://img.shields.io/badge/audit%20by-ongrid-green.svg)](audits/2022.04-MetarunToken-Audit-by-OnGrid.pdf)
+[![](https://img.shields.io/badge/built%20with-openzeppelin-blue.svg)](https://openzeppelin.com/)
+[![](https://img.shields.io/badge/solidity-0.8.11-blue.svg)](https://docs.soliditylang.org/en/v0.8.11/)
+[![Test](https://github.com/metarungame/metarun-contracts/actions/workflows/test.yml/badge.svg)](https://github.com/metarungame/metarun-contracts/actions/workflows/test.yml)
 
-* Network: BSC
-* BSC contract address: [0xCa0D640a401406f3405b4C252a5d0c4d17F38EBb](https://bscscan.com/token/0xCa0D640a401406f3405b4C252a5d0c4d17F38EBb)
-* Standard: BEP-20
-* Name: METARUN
-* Symbol: MRUN
-* Supply: dynamic, capped at 1,000,000,000. It will be minted as per requirement. At the time of deployment there should be no supply minted.
-* Mintable: Yes, by MINTER_ROLE
-* Burnable: Yes, holder can burn his amount
-* Pausable: No
-* Upgradeable: No
-* AccessControl: RoleBased: DEFAULT_ADMIN_ROLE, MINTER_ROLE
+## BEP-20 token specification
+
+* Network: `BNB Chain (ex. Binance Smart Chain or BSC)`
+* Contract address: [0xCa0D640a401406f3405b4C252a5d0c4d17F38EBb](https://bscscan.com/token/0xCa0D640a401406f3405b4C252a5d0c4d17F38EBb)
+* Standard: `BEP-20 (ERC-20 compatible)`
+* Name: `METARUN`
+* Symbol: `MRUN`
+* Supply: `dynamic, capped at 1,000,000,000. It will be minted as per requirement. At the time of deployment there should be no supply minted.`
+* Mintable: `Yes, by MINTER_ROLE`
+* Burnable: `Yes, holder can burn his amount`
+* Pausable: `No`
+* Upgradeable: `No`
+* AccessControl: `RoleBased: DEFAULT_ADMIN_ROLE, MINTER_ROLE`
 
 ## Deploy and verify
 
